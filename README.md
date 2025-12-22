@@ -1,5 +1,7 @@
 # SUSTI.PATRONES
 
+![CI](https://github.com/sharon20-lgtm/SUSTI.PATRONES/actions/workflows/ci.yml/badge.svg)
+
 Proyecto de ejemplo que implementa patrones de diseño (Adapter, Observer, Strategy, Command/Memento, Iterator, Proxy) siguiendo el repo guía https://github.com/Fabricio2106/Proyecto-final.git
 
 Estructura:
