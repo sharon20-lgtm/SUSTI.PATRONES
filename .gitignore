@@ -1,0 +1,41 @@
+# Java
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.settings/
+.project
+.classpath
+.recommenders/
+
+# IntelliJ
+.idea/
+*.iml
+
+env/
+
+# VSCode
+.vscode/
+
+# Node
+**/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build
+/build/
+
+# IDE
+*.ipr
+*.iws
+
+# Others
+*.tmp

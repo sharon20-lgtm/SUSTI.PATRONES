@@ -1,1 +1,17 @@
 # SUSTI.PATRONES
+
+Proyecto de ejemplo que implementa patrones de diseño (Adapter, Observer, Strategy, Command/Memento, Iterator, Proxy) siguiendo el repo guía https://github.com/Fabricio2106/Proyecto-final.git
+
+Estructura:
+- backend/ (Spring Boot)
+- frontend/ (React, placeholder)
+
+Siguientes pasos:
+- Implementar JWT real y pruebas.
+- Completar frontend con rutas de login y panel admin.
+- Añadir tests unitarios e integración.
+
+CI y despliegue
+- Se añadió un workflow de GitHub Actions en `.github/workflows/ci.yml` que ejecuta pruebas en el backend (mvn test) en cada push/PR.
+- Cuando subas el repo a GitHub, verás el estado del build en la pestaña de Actions.
+
