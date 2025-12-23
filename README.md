@@ -12,7 +12,3 @@ Siguientes pasos:
 - Completar frontend con rutas de login y panel admin.
 - Añadir tests unitarios e integración.
 
-CI y despliegue
-- Se añadió un workflow de GitHub Actions en `.github/workflows/ci.yml` que ejecuta pruebas en el backend (mvn test) en cada push/PR.
-- Cuando subas el repo a GitHub, verás el estado del build en la pestaña de Actions.
-
