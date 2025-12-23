@@ -15,12 +15,7 @@ Endpoints temprales:
 - POST /payments/config/{gateway}/enable
 - POST /payments/config/{gateway}/disable
 
-Notas:
+
 - Implementación inicial de patrones Adapter (pagos) y Observer (inventario).
 - Autenticación aún con token dummy; se implementará JWT en la próxima iteración.
 
-CI / Ejecución de tests
-- He añadido un flujo de GitHub Actions en `.github/workflows/ci.yml` que ejecuta `mvn test` en el backend en cada push/PR (usa JDK 17).
-- Si prefieres ejecutar pruebas localmente, instala Maven y ejecuta desde `backend/`:
-  1. `mvn clean test`
-  2. Si no tienes Maven, puedes usar una imagen docker o configurar `mvn` en tu sistema.
